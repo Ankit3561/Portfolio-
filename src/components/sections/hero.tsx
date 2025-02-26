@@ -1,10 +1,9 @@
-import Image from 'next/image';
 import { MapPin } from 'lucide-react';
+import Image from 'next/image';
 
-import AnkitHeadshot from '../../utils/images/ankit-headshot.jpg';
-import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
+import AnkitHeadshot from '../../utils/images/ankit-headshot.jpg';
 
 const HeroSection = () => {
   return (
@@ -55,7 +54,6 @@ const HeroSection = () => {
               <Typography>Available for new projects</Typography>
             </div>
           </div>
-          {/* <SocialIcons /> */}
         </div>
       </div>
     </Container>
