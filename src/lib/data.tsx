@@ -1,40 +1,35 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Figma, Github, Twitter } from 'lucide-react';
 
+import LogoCypressLight from '../utils/images/logos/icon-cypress-light.svg';
+import LogoCypress from '../utils/images/logos/icon-cypress.svg';
+import LogoExpressLight from '../utils/images/logos/icon-express-light.svg';
+import LogoExpress from '../utils/images/logos/icon-express.svg';
+import LogoFigma from '../utils/images/logos/icon-figma.svg';
+import LogoGit from '../utils/images/logos/icon-git.svg';
 import LogoJavascript from '../utils/images/logos/icon-javascript.svg';
-import LogoTypescript from '../utils/images/logos/icon-typescript.svg';
-import LogoReact from '../utils/images/logos/icon-react.svg';
+import LogoMongoDB from '../utils/images/logos/icon-mongodb.svg';
+import LogoNest from '../utils/images/logos/icon-nest.svg';
 import LogoNextjs from '../utils/images/logos/icon-nextjs.svg';
 import LogoNodejs from '../utils/images/logos/icon-nodejs.svg';
-import LogoExpress from '../utils/images/logos/icon-express.svg';
-import LogoExpressLight from '../utils/images/logos/icon-express-light.svg';
-import LogoNest from '../utils/images/logos/icon-nest.svg';
-import LogoSocket from '../utils/images/logos/icon-socket.svg';
-import LogoSocketLight from '../utils/images/logos/icon-socket-light.svg';
 import LogoPostgreSQL from '../utils/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '../utils/images/logos/icon-mongodb.svg';
+import LogoReact from '../utils/images/logos/icon-react.svg';
 import LogoSass from '../utils/images/logos/icon-sass.svg';
-import LogoTailwindcss from '../utils/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '../utils/images/logos/icon-figma.svg';
-import LogoCypress from '../utils/images/logos/icon-cypress.svg';
-import LogoCypressLight from '../utils/images/logos/icon-cypress-light.svg';
+import LogoSocketLight from '../utils/images/logos/icon-socket-light.svg';
+import LogoSocket from '../utils/images/logos/icon-socket.svg';
 import LogoStorybook from '../utils/images/logos/icon-storybook.svg';
-import LogoGit from '../utils/images/logos/icon-git.svg';
+import LogoTailwindcss from '../utils/images/logos/icon-tailwindcss.svg';
+import LogoTypescript from '../utils/images/logos/icon-typescript.svg';
 
 import LogoUpwork from '../utils/images/logos/logo-upwork.svg';
-import LogoGreenApex from '../utils/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '../utils/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '../utils/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '../utils/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '../utils/images/project-fiskil.png';
-import ProjectWingie from '../utils/images/project-wingie.png';
+
 import ProjectOzdent from '../utils/images/appOzdent.png';
+import ProjectFiskil from '../utils/images/project-fiskil.png';
 
 import ProjectPepehousing from '../utils/images/project-pepehousing.png';
 
-import AvatarKrisztian from '../utils/images/avatar-krisztian.png';
-import AvatarEugen from '../utils/images/avatar-eugen.png';
 import AvatarDummy from '../utils/images/avatar-dummy.svg';
+import AvatarKrisztian from '../utils/images/avatar-krisztian.png';
 
 
 import {
@@ -185,7 +180,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
       'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, React-Native, Cypress, and others.',
     ],
   },
-  
+
 
 ];
 

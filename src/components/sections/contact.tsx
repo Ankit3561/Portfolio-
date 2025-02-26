@@ -28,15 +28,16 @@ const ContactSection = () => {
       await copyTextToClipboard(text);
       setIsCopied(true);
       setCopiedValueType(type);
-      const timoutId: any = setTimeout(() => {
+      const timoutId: NodeJS.Timeout = setTimeout(() => {
         setIsCopied(false);
         setCopiedValueType(null);
         clearTimeout(timoutId);
       }, 1500);
     } catch (error) {
+      console.error('Copy error:', error);
       setIsCopied(false);
       setCopiedValueType(null);
-      alert('Unable to copy!');
+      alert('Unable to copy!',);
     }
   };
 
