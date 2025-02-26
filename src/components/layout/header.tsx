@@ -1,23 +1,22 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
+import IconButton from '@/components/general/icon-button';
+import ThemeSwitcher from '@/components/general/theme-switcher';
+import Typography from '@/components/general/typography';
 import {
   Drawer,
-  DrawerTrigger,
-  DrawerContent,
   DrawerClose,
+  DrawerContent,
+  DrawerTrigger,
 } from '@/components/navigation/drawer';
+import Link from '@/components/navigation/link';
+import useScroll from '@/hooks/use-scroll';
+import useWindowSize from '@/hooks/use-window-size';
 import { NAV_LINKS } from '@/lib/data';
 import { mergeClasses } from '@/lib/utils';
-import useWindowSize from '@/hooks/use-window-size';
-import useScroll from '@/hooks/use-scroll';
-import Link from '@/components/navigation/link';
-import ThemeSwitcher from '@/components/general/theme-switcher';
-import IconButton from '@/components/general/icon-button';
-import DownloadCV from '@/components/general/download-cv';
-import Typography from '@/components/general/typography';
 
 const Logo = () => (
   <Typography variant="h3" className="font-bold">
@@ -59,7 +58,6 @@ const Header = () => {
           <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
-            {/* <DownloadCV /> */}
           </div>
         </div>
 

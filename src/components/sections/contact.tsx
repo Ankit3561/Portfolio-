@@ -1,10 +1,9 @@
 'use client';
 
-import { useState } from 'react';
 import { Copy, Mail, Phone } from 'lucide-react';
+import { useState } from 'react';
 // import Link from 'next/link';
 
-import SocialIcons from '@/components/data-display/social-icons';
 import Tag from '@/components/data-display/tag';
 import IconButton from '@/components/general/icon-button';
 import Typography from '@/components/general/typography';
@@ -12,8 +11,8 @@ import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
 
-let email = 'akkumar150277572@gmail.com';
-let phone = '+91 8219193930';
+const email = 'akkumar150277572@gmail.com';
+const phone = '+91 8219193930';
 
 type CopyValue = 'email' | 'phone';
 
@@ -29,7 +28,7 @@ const ContactSection = () => {
       await copyTextToClipboard(text);
       setIsCopied(true);
       setCopiedValueType(type);
-      let timoutId: any = setTimeout(() => {
+      const timoutId: any = setTimeout(() => {
         setIsCopied(false);
         setCopiedValueType(null);
         clearTimeout(timoutId);
@@ -84,12 +83,7 @@ const ContactSection = () => {
             </IconButton>
           </div>
         </div>
-        {/* <div className="flex flex-col items-center gap-2">
-          <Typography className="text-center">
-            You may also find me on these platforms!
-          </Typography>
-          <SocialIcons />
-        </div> */}
+      
       </div>
     </Container>
   );

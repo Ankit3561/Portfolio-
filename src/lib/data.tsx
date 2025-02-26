@@ -185,30 +185,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
       'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, React-Native, Cypress, and others.',
     ],
   },
-  // {
-  //   logo: LogoGreenApex,
-  //   darkModeLogo: LogoGreenApexLight,
-  //   logoAlt: 'Greenapex logo',
-  //   position: 'Team Lead',
-  //   startDate: new Date(2017, 6),
-  //   endDate: new Date(2021, 9),
-  //   summary: [
-  //     'Acted as team lead in different projects.',
-  //     'Brainstormed new ideas & gathered requirements for internal projects.',
-  //     'Designed architecture of different projects (frontend + backend).',
-  //     'Worked on enterprise-level projects for a variety of clients.',
-  //     'Handled sprint planning & task distribution.',
-  //   ],
-  // },
-  // {
-  //   logo: LogoDotnpixel,
-  //   darkModeLogo: LogoDotnpixelLight,
-  //   logoAlt: 'Dotnpixel logo',
-  //   position: 'Full Stack Developer',
-  //   startDate: new Date(2015, 11),
-  //   endDate: new Date(2017, 4),
-  //   summary: ['Worked as a full stack developer (React / Laravel).'],
-  // },
+  
+
 ];
 
 export const PROJECTS: ProjectDetails[] = [

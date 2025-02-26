@@ -20,8 +20,7 @@ const iconButtonVariants = cva(
 
 export interface IconButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof iconButtonVariants> {
-  asChild?: boolean;
+  VariantProps<typeof iconButtonVariants> {
   showTooltip?: boolean;
   tooltipText?: string;
 }
@@ -31,7 +30,6 @@ const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
     {
       className,
       size,
-      asChild = false,
       showTooltip = false,
       tooltipText = '',
       children,
