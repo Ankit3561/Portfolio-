@@ -1,11 +1,8 @@
 import * as React from 'react';
-
 import { mergeClasses } from '@/lib/utils';
 
-interface ContainerProps extends React.HTMLAttributes<HTMLElement> {}
-
-const Container = React.forwardRef<HTMLElement, ContainerProps>(
-  ({ className, children, ...props }: ContainerProps, ref) => {
+const Container = React.forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>(
+  ({ className, children, ...props }, ref) => {
     return (
       <section
         className={mergeClasses(
@@ -24,5 +21,4 @@ const Container = React.forwardRef<HTMLElement, ContainerProps>(
 );
 
 Container.displayName = 'Container';
-
 export default Container;
